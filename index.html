@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - The world of music</title>
+    <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+        <nav class="main-nav">
+        <ul class="main-ul">
+            <li class="nav-li nav-li1">
+                <img class="nav-logo" src="logo.png">
+                Spotify
+            </li>
+            <li class="nav-li">Home</li>
+            <li class="nav-li">About</li>
+        </ul>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="song-list ">
+            <h1>You are listening my favourite....</h1>
+
+            <div class="songitem grow" id="song-item">
+                <img class="cover" src="cover/0.png" alt="0">
+                <span class="songname">Who says - Selena Gomez</span>
+                <span class="song-list-play"> 
+                    <span class="timestamp time1">3:15</span>
+                    <i id="0" class="fa-solid fa-play try songitemply1"></i>
+                </span>
+            </div>
+
+            <div class="songitem grow" id="song-item">
+                <img class="cover" src="cover/1.png" alt="1">
+                <span class="songname">Company - Justin Bieber</span>
+                <span class="song-list-play"> 
+                    <span class="timestamp time2">3:28</span>
+                    <i id="1" class="fa-solid fa-play  songitemply1"></i>
+                </span>
+            </div>
+
+            <div class="songitem grow" id="song-item">
+                <img class="cover" src="cover/2.png" alt="2">
+                <span class="songname">Style - Taylor Swift</span>
+                <span class="song-list-play"> 
+                    <span class="timestamp time3">3:51</span>
+                    <i id="2" class="fa-solid fa-play songitemply1"></i>
+                </span>
+            </div>
+
+            <div class="songitem grow" id="song-item">
+                <img class="cover" src="cover/3.png" alt="3">
+                <span class="songname">Into you - Ariana Grande</span>
+                <span class="song-list-play"> 
+                    <span class="timestamp time4">4:04</span>
+                    <i id="3" class="fa-solid fa-play  songitemply1"></i>
+                </span>
+            </div>
+
+            <div class="songitem grow" id="song-item">
+                <img class="cover" src="cover/4.png" alt="4">
+                <span class="songname">See you - Johnny Orlando</span>
+                <span class="song-list-play"> 
+                    <span class="timestamp time5">2:55</span>
+                    <i id="4" class="fa-solid fa-play songitemply1"></i>
+                </span>
+            </div>
+
+            <div class="songitem grow" id="song-item">
+                <img class="cover" src="cover/5.png" alt="5">
+                <span class="songname">Best Life - Nani Hirunkit</span>
+                <span class="song-list-play"> 
+                    <span class="timestamp time6">3:12</span>
+                    <i id="5"  class="fa-solid fa-play  songitemply1"></i>
+                </span>
+            </div>
+
+
+        </div>
+
+        <div class="song-play">
+            <img id="cover-image" src="cover/0.png" alt="cover">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100" >
+            <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="icon-i fa-solid fa-backward fa-2xl grow" id = "previous" style="color: #0075ff;"></i>
+            <i class="icon-i fa-regular fa-circle-play fa-2xl  grow" id="btnply" style="color: #0075ff;"></i>
+            <i class="fa-solid fa-forward fa-2xl grow" id="next" style="color: #0075ff;"></i>
+          
+        </div>
+        <div class="song-detail">
+            <span id="song-name">Who Says - Selena Gomez</span>
+        </div>
+        </div>
+
+    </div>
+
+    
+    <div class="footer">
+       <a href="https://www.instagram.com/moonxflair/"><i class="fa-brands fa-instagram fa-2xl grow" style="color:#000000;" ></i></a> 
+        <a href="https://twitter.com/moonxflair"><i class="fa-brands fa-twitter fa-2xl grow" style="color:#000000;"></i></a>
+        <a href="https://www.youtube.com/channel/UCjUXshXCowvGa3f2w2isweg"><i class="fa-brands fa-youtube fa-2xl grow" style="color:#000000;"></i></a>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f79bcdf0e9.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
